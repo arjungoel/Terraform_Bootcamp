@@ -1,20 +1,3 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
-
-
-Hi there! Welcome to AWS Cloud9!
-
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
-
-Happy coding!
-
-
-
 **README.md**:
 
 
@@ -83,9 +66,7 @@ The signature for lookup method is: lookup(map, key, default)
 - Typically these workspaces will be tied to branch names and source control.
 - Workspaces work really well for the smaller deployments if the deployment begins to grow to the point where multiple teams of engineers are involved and differences between prod and dev becomes difficult to manage.
 
-==================================================================
-   Distinct Environments vs Terraform Workspaces (To Be Checked)
-==================================================================
+ **Distinct Environments vs Terraform Workspaces (To Be Checked)**
 
 command to create terraform workspace: `terraform workspace new <workspace_name>`
 To check in which workspace you are do: `terraform workspace show`
